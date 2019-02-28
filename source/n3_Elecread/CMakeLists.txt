@@ -3,7 +3,7 @@
 #               Author : LAGARDE Francois               #
 #########################################################
 
-add_executable(GasFile2 gasfile.cpp)
+add_executable(GasFile2 gasfile2.cpp)
 target_link_libraries(GasFile2 ${ROOT_LIBRARIES} Garfield)
 install(TARGETS GasFile2 RUNTIME DESTINATION ${PROJECT_SOURCE_DIR}/bin)
 

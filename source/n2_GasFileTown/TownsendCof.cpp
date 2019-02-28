@@ -1,11 +1,11 @@
 #include <iostream>
 #include<fstream>
 
-#include <TCanvas.h>
-#include <TROOT.h>
-#include <TApplication.h>
-#include <TGraph.h>
-
+#include "TCanvas.h"
+#include "TROOT.h"
+#include "TApplication.h"
+#include "TGraph.h"
+#include "TAxis.h"
 using namespace std;
 
 int TownsendCof() {
@@ -87,3 +87,9 @@ int TownsendCof() {
 
   return 0;
 }
+
+int main()
+{
+    TownsendCof();
+}
+
